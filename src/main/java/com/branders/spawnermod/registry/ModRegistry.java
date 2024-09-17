@@ -14,7 +14,7 @@ import net.minecraft.util.Rarity;
 
 public class ModRegistry {
 
-    public static final Item SPAWNER_KEY = new SpawnerKey(new Item.Settings().maxDamage(10).rarity(Rarity.RARE));
+    public static final Item SPAWNER_KEY = new SpawnerKey(new Item.Settings().maxDamage(300).rarity(Rarity.RARE));
 
     public static void register() {
 
